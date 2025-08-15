@@ -1,202 +1,139 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Admin Dashboard</title>
-    <link rel="stylesheet" href="styles.css">
-    <script src="https://kit.fontawesome.com/9625564d4c.js" crossorigin="anonymous"></script>
- <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=dashboard" />
- <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=notifications_active" />
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Admin Dashboard</title>
+  <link rel="stylesheet" href="styles.css" />
+  <script src="https://kit.fontawesome.com/9625564d4c.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=dashboard" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=notifications_active" />
 </head>
 <body>
 
-    <div class="dashboard-container">
+<div class="dashboard-container">
 
-        <aside class="left-sidebar">
-            <div class="logo">
-        <span class="material-symbols-outlined" style="font-size: 36px;">dashboard</span>
-                <span class="dashboard">Dashboard</span>
-            </div>
-            <nav class="nav-menu">
-                <ul>
-                    <li>
-                      <i class="fa-solid fa-house"></i>
-                      <a href="#">Home</a>
-                    </li>
-                    <li> <i class="fa-solid fa-id-card"></i>
-                         <a href="#">Profile</a>
-                    </li>
-                    <li> 
-                      <i class="fa-solid fa-message"></i>
-                      <a href="#">Messages</a>
-                    </li>
-                    <li>
-                      <i class="fa-solid fa-clock-rotate-left"></i>
-                      <a href="#">History</a>
-                    </li>
-                    <li>
-                      <i class="fa-solid fa-list-check"></i>
-                      <a href="#">Task</a>
-                    </li>
-                    <li>
-                      <i class="fa-solid fa-people-line"></i>
-                      <a href="#">Communication</a>
-                    </li>
-
-                    <li id="space" style="height: 50px;">
-
-                    <li>
-                     <li>
-                      <i class="fa-solid fa-gear"></i>
-                      <a href="#">Settings</a>
-                    </li>
-                    <li>
-                      <i class="fa-solid fa-question"></i>
-                      <a href="#">Support</a>
-                    </li>
-                    <li>
-                      <i class="fa-solid fa-shield-halved"></i>
-                      <a href="#">Privacy</a>
-                    </li>
-                </ul>
-            </nav>
-        </aside>
-
-        <main class="main-content">
-            <header class="top-header">
-                <div class="search-bar">
-                  <i class="fa-solid fa-magnifying-glass"></i>
-                  <input type="search" name="search" id="search">
-                </div>
-                <div class="user-profile">
-                  <img src='https://avataaars.io/?avatarStyle=Circle&topType=ShortHairDreads01&accessoriesType=Prescription01&hairColor=Black&facialHairType=Blank&clotheType=BlazerShirt&eyeType=EyeRoll&eyebrowType=DefaultNatural&mouthType=Eating&skinColor=Tanned'/>
-                  <h3> Morgan Olenskey</h3>
-                </div>
-          
-                  <div class="user-info">
-                    <img src='https://avataaars.io/?avatarStyle=Circle&topType=ShortHairDreads01&accessoriesType=Prescription01&hairColor=Black&facialHairType=Blank&clotheType=BlazerShirt&eyeType=EyeRoll&eyebrowType=DefaultNatural&mouthType=Eating&skinColor=Tanned'/>
-
-                    <section>
-
-                       <p>hi there,
-                      <h3>Morgan</h3>
-                    </p>
-
-                    </section>
-
-                   
-                      </div>
-                  <div class="action-buttons">
-                      <button>New</button>
-                      <button>Upload</button>
-                      <button>Share</button>
-                  </div>
-                
-            </header>
-
-            <section class="projects-section">
-                <h2>Your Projects</h2>
-                <div class="projects-grid">
-                    <div class="project-card">
-                        <h3>Super Cool Project</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae reiciendis error commodi rerum cupiditate soluta iure unde vero ipsa nostrum quod, eius assumenda libero corporis dolor dicta praesentium dolores repudiandae?</p>
-                        <div class="card-icons">
-                        </div>
-                    </div>
-                
-                    <div class="project-card">
-                        <h3>Super Cool Project</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae culpa nihil ea. Ut repudiandae pariatur est quidem provident! Sint facere consequuntur vero ullam quidem architecto qui eos ea soluta vel.</p>
-                        <div class="card-icons">
-                        </div>
-                    </div>
-                  
-                 
-                    <div class="project-card">
-                        <h3>Super Cool Project</h3>
-        
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error asperiores similique necessitatibus nisi itaque ea, quae modi sequi non harum unde, quos accusantium. Ipsa sint, ipsum repudiandae similique neque sit.</p>
-                        <div class="card-icons">
-                        </div>
-                    </div>
-                  
-               
-                    <div class="project-card">
-                        <h3>Super Cool Project</h3>
-                       
-                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptas, quo. Dolor, reiciendis asperiores sint quasi tenetur, eveniet, itaque blanditiis officia assumenda laudantium tempora molestias iste? Adipisci quae culpa rem nam?</p>
-                        <div class="card-icons">
-                        </div>
-                    </div>
-                  
-                    <div class="project-card">
-                     
-                        <h3>Super Cool Project</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio soluta consectetur porro eligendi, adipisci inventore nostrum neque magni obcaecati consequuntur nemo fuga, dolorem quia, at voluptates velit aliquam? Maxime, unde.</p>
-                        <div class="card-icons">
-                        </div>
-                    </div>
-
-                    <div class="project-card">
-                        <h3>Super Cool Project</h3>
-                       
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus, dolorum nobis ducimus non asperiores hic eveniet harum amet id doloribus quibusdam blanditiis fugiat ut sapiente maxime veniam, cupiditate ipsum culpa?</p>
-                        <div class="card-icons">
-                        </div>
-                    </div>
-                  
-                    <aside class="right-sidebar">
-                      
-                      <section class="announcements">
-                        <h2>Announcements</h2>
-                        <div>
-                         <h3>Public Library Renovation</h3>
-                         <p>You are cordially invited to our Third Annual "Hope for Tomorrow" Gala on Saturday, October 26th, at the Grand Ballroom.</p>
-                         <hr/>
-                         <h3> Annual Charity Gala</h3>
-                         <p>ou are cordially invited to our Third Annual "Hope for Tomorrow" Gala on Saturday, October 26th, at the Grand Ballroom</p>
-                         <hr/>
-                         <h3>Annual Town Hall Meeting</h3>
-                         <p>Mark your calendars! The annual Town Hall Meeting will be held on Thursday, November 14th, at 7:00 PM in the City Hall Auditorium.</p>
-                         <hr/>
-                  
-                        </div>
-                      </section>
-                       
-                      <section class="trending">
-                         <h2>Trending</h2>
-                         <div>
-
-                           <img src='https://avataaars.io/?avatarStyle=Circle&topType=ShortHairDreads01&accessoriesType=Prescription01&hairColor=Black&facialHairType=Blank&clotheType=BlazerShirt&eyeType=EyeRoll&eyebrowType=DefaultNatural&mouthType=Eating&skinColor=Tanned'/>
-
-                          <section>
-                            <h3>@tegan</h3>
-                          <p>World Peace Builder</p>
-                          </section>
-
-                         </div>
-                        
-                          <div>
-
-                              <img src='https://avataaars.io/?avatarStyle=Circle&topType=ShortHairDreads02&accessoriesType=Prescription02&hairColor=PastelPink&facialHairType=MoustacheFancy&facialHairColor=BrownDark&clotheType=BlazerShirt&eyeType=Default&eyebrowType=RaisedExcited&mouthType=Default&skinColor=Tanned'/>
-
-                              <section>
-                                <h3>@morgan</h3>
-                          <p>Super Cool Project</p>
-
-                              </section>
-                          
-
-
-                          </div>
-
-                        
-                       </section>
-                    </aside>
-            </section>
-          </main>
-            
+  <aside class="left-sidebar">
+    <div class="logo">
+      <span class="material-symbols-outlined" style="font-size: 36px;">dashboard</span>
+      <span class="dashboard">Dashboard</span>
     </div>
+
+    <nav class="nav-menu">
+      <ul>
+        <li><i class="fa-solid fa-house"></i> <a href="#">Home</a></li>
+        <li><i class="fa-solid fa-id-card"></i> <a href="#">Profile</a></li>
+        <li><i class="fa-solid fa-message"></i> <a href="#">Messages</a></li>
+        <li><i class="fa-solid fa-clock-rotate-left"></i> <a href="#">History</a></li>
+        <li><i class="fa-solid fa-list-check"></i> <a href="#">Task</a></li>
+        <li><i class="fa-solid fa-people-line"></i> <a href="#">Communication</a></li>
+        <li style="height: 50px;"></li> 
+        <li><i class="fa-solid fa-gear"></i> <a href="#">Settings</a></li>
+        <li><i class="fa-solid fa-question"></i> <a href="#">Support</a></li>
+        <li><i class="fa-solid fa-shield-halved"></i> <a href="#">Privacy</a></li>
+      </ul>
+    </nav>
+  </aside>
+  <header class="top-header">
+    <div class="search-bar">
+      <i class="fa-solid fa-magnifying-glass"></i>
+      <input type="search" name="search" id="search" />
+    </div>
+
+    <div class="user-profile">
+      <img src="https://avataaars.io/?avatarStyle=Circle&topType=ShortHairDreads01&accessoriesType=Prescription01&hairColor=Black&facialHairType=Blank&clotheType=BlazerShirt&eyeType=EyeRoll&eyebrowType=DefaultNatural&mouthType=Eating&skinColor=Tanned" />
+      <h3>Morgan Olenskey</h3>
+    </div>
+
+    <div class="user-info">
+      <img src="https://avataaars.io/?avatarStyle=Circle&topType=ShortHairDreads01&accessoriesType=Prescription01&hairColor=Black&facialHairType=Blank&clotheType=BlazerShirt&eyeType=EyeRoll&eyebrowType=DefaultNatural&mouthType=Eating&skinColor=Tanned" />
+      <section>
+        <p>Hi there,</p>
+        <h3>Morgan</h3>
+      </section>
+    </div>
+
+    <div class="action-buttons">
+      <button>New</button>
+      <button>Upload</button>
+      <button>Share</button>
+    </div>
+  </header>
+  <main class="main-content">
+    <section class="projects-section">
+      <h2>Your Projects</h2>
+      <div class="projects-grid">
+        <div class="project-card">
+          <h3>Super Cool Project</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi non esse, dignissimos sapiente blanditiis ipsum cupiditate nobis asperiores a, sed earum eligendi in facilis ut recusandae maiores corrupti nisi dolor.</p>
+        </div>
+
+        <div class="project-card">
+          <h3>Super Cool Project</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui adipisci eveniet nisi molestiae quibusdam obcaecati voluptas suscipit illum illo minus. Incidunt labore vero nostrum sit error perferendis autem distinctio sed!</p>
+        </div>
+
+        <div class="project-card">
+          <h3>Super Cool Project</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia corrupti consectetur, nobis earum suscipit pariatur aliquam repellat sunt ea, in explicabo accusantium libero quae reiciendis culpa. Nobis error odio magnam.</p>
+        </div>
+
+        <div class="project-card">
+          <h3>Super Cool Project</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis autem quod magnam quaerat qui vel? Sit enim eos id harum sunt libero! Tenetur adipisci nam deserunt voluptas totam ullam labore?</p>
+        </div>
+
+        <div class="project-card">
+          <h3>Super Cool Project</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem a aperiam distinctio cum deserunt non porro ut incidunt nesciunt est. Soluta beatae corrupti maxime delectus obcaecati iure, tempora ipsa id!
+          </p>
+        </div>
+
+        <div class="project-card">
+          <h3>Super Cool Project</h3>
+          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Accusantium quia minus et accusamus blanditiis. Exercitationem earum, similique excepturi culpa quod voluptatum itaque beatae. Repellendus vero officia aspernatur, fuga architecto ex.</p>
+        </div>
+      </div>
+    </section>
+  </main>
+  <aside class="right-sidebar">
+        <section class="announcements">
+          <h2>Announcements</h2>
+          <div>
+            <h3>Public Library Renovation</h3>
+            <p>You are cordially invited to our Third Annual "Hope for Tomorrow" Gala on Saturday...</p>
+            <hr />
+            <h3>Annual Charity Gala</h3>
+            <p>You are cordially invited to our Third Annual "Hope for Tomorrow" Gala on Saturday...</p>
+            <hr />
+            <h3>Annual Town Hall Meeting</h3>
+            <p>Mark your calendars! The annual Town Hall Meeting will be held on Thursday, November...</p>
+          </div>
+        </section>
+
+        <section class="trending">
+          <h2>Trending</h2>
+          <div class="trends">
+            <div>
+              <img src="https://avataaars.io/?avatarStyle=Circle&topType=ShortHairDreads01&accessoriesType=Prescription01&hairColor=Black&facialHairType=Blank&clotheType=BlazerShirt&eyeType=EyeRoll&eyebrowType=DefaultNatural&mouthType=Eating&skinColor=Tanned" />
+              <section>
+                <h3>@morgan</h3>
+                <p>World Peace Builder</p>
+              </section>
+            </div>
+
+            <div>
+              <img src="https://avataaars.io/?avatarStyle=Circle&topType=ShortHairDreads02&accessoriesType=Prescription02&hairColor=PastelPink&facialHairType=MoustacheFancy&facialHairColor=BrownDark&clotheType=BlazerShirt&eyeType=Default&eyebrowType=RaisedExcited&mouthType=Default&skinColor=Tanned" />
+              <section>
+                
+                <h3>@tegan</h3>
+                <p>Super Cool Project</p>
+              </section>
+            </div>
+          </div>          
+        </section>
+      </aside>
+      
 </body>
 </html>
